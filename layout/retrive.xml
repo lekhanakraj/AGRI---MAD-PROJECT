@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".retrive">
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="101dp"
+        android:src="@drawable/ic_farmer"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="WHY YOU NEED TO PROVIDE INFORMATION?"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:fontFamily="@font/architects_daughter"
+    />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="center"
+        android:text="We as Agri are family of farmers , by accessing your infromation er
+could provide you with various premium features - like spray control,
+,water analysis,greencard issue etc."
+        android:textColor="#ffff"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+    android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="center"
+        android:text="To knoe more contact us at agri@gmail.com"
+        android:textColor="#ffff"
+        android:textSize="15dp"
+
+        android:textStyle="italic" />
+
+</LinearLayout>

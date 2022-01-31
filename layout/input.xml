@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkgreen"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:fontFamily="@font/architects_daughter"
+        android:gravity="center"
+        android:text="Your Information"
+        android:textColor="@color/md_white_1000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/architects_daughter"
+        android:layout_gravity="center"
+        android:hint="Enter Name"
+        android:textColorHint="@color/md_white_1000"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/etRollno"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/architects_daughter"
+        android:layout_gravity="center"
+        android:hint="Age"
+        android:textColorHint="@color/md_white_1000"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spinnerCourse"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:entries="@array/acre" />
+
+    <Button
+        android:id="@+id/btn111"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>
